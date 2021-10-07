@@ -1,0 +1,32 @@
+body {
+  margin: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.controls > div {
+  margin-top: 10px;
+}
+
+.controls > div:first-child > button, .controls > div:last-child > input {
+  margin-right: 10px;
+}
+
+.controls p {
+  text-align: center;
+}
+
+.turn-warning {
+  text-align: center;
+}
